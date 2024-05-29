@@ -1,0 +1,101 @@
+img.humidity-icon, img.wind-icon {
+  width: 40px;
+}
+.humidity-container {
+  float:left;
+}
+.wind-container {
+  float:right;
+}
+body {
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.weather-details {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.weather-details:hover {
+  transform: translateY(-10px);
+}
+
+.weather-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.temp {
+  font-size: 4rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.city {
+  font-size: 3rem;
+  margin-top: 5px;
+  color: #ff6f61;
+}
+
+.country {
+  font-size: 1.5rem;
+  color: #2ecc71;
+}
+
+.coordinates {
+  margin: 10px;
+}
+
+.humidity-container, .wind-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.humidity-percent, .wind-speed {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.loading-message, .error-message, .city-not-found {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-group {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group .form-control {
+  border: none;
+  border-radius: 0;
+}
+
+.input-group .btn {
+  border: none;
+  background
